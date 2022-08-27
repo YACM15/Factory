@@ -3,6 +3,6 @@
 alejandro subir clase empleado
 isacc subir movimiento de dinero
 yeimi subie clase empresa
-yeison diagrama
-martin revision crear una carpeta para guardae los diagramas y subir a el git hub
+yeison realizar diagrama clases y subir Github
+martin revision de las clases y  subir correciones a el github
 
