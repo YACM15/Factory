@@ -1,81 +1,39 @@
 public class MovimientoDeDinero {
 
-        private long id;
-        private String concept;
-        private float amount;
-        private Empleado user;
-        private Empresa enterprise;
-        private date createdAt;
-        private date updateAt;
+    private float montoMovimiento;
+    private String conseptoMonto;
 
-//CONDTRUCTOR
+//CONSTRUCTOR
 
-        public MovimientoDinero(long id, String concept, float amount, Empleado user, Empresa enterprise, date createdAt, date updateAt) {
-            this.id = id;
-            this.concept = concept;
-            this.amount = amount;
-            this.user = user;
-            this.enterprise = enterprise;
-            this.createdAt = createdAt;
-            this.updateAt = updateAt;
-        }
+    public MovimientoDinero(float montoMovimiento, String conseptoMonto) {
+        this.montoMovimiento = montoMovimiento;
+        this.conseptoMonto = conseptoMonto;
+    }
 
-        //SET AND GET
+    //GET AND SET
 
-        public long getId() {
-            return id;
-        }
+    public float getMontoMovimiento() {
+        return montoMovimiento;
+    }
 
-        public void setId(long id) {
-            this.id = id;
-        }
+    public void setMontoMovimiento(float montoMovimiento) {
+        this.montoMovimiento = montoMovimiento;
+    }
 
-        public String getConcept() {
-            return concept;
-        }
+    public String getConseptoMonto() {
+        return conseptoMonto;
+    }
 
-        public void setConcept(String concept) {
-            this.concept = concept;
-        }
+    public void setConseptoMonto(String conseptoMonto) {
+        this.conseptoMonto = conseptoMonto;
+    }
 
-        public float getAmount() {
-            return amount;
-        }
+    //METODOS
+    public void crearonto(){
 
-        public void setAmount(float amount) {
-            this.amount = amount;
-        }
+    }
 
-        public User getUser() {
-            return Empleado;
-        }
+    public void usuarioEncargadoRegistrarMovimiento(){
 
-        public void setUser(User user) {
-            this.Empleado = user;
-        }
-
-        public Enterprise getEnterprise() {
-            return Empresa;
-        }
-
-        public void setEnterprise(Enterprise enterprise) {
-            this.Empresa = enterprise;
-        }
-
-        public date getCreatedAt() {
-            return createdAt;
-        }
-
-        public void setCreatedAt(date createdAt) {
-            this.createdAt = createdAt;
-        }
-
-        public date getUpdateAt() {
-            return updateAt;
-        }
-
-        public void setUpdateAt(date updateAt) {
-            this.updateAt = updateAt;
-        }
-
+    }
 }
