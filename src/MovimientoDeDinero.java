@@ -47,19 +47,19 @@ public class MovimientoDeDinero {
         }
 
         public User getUser() {
-            return user;
+            return Empleado;
         }
 
         public void setUser(User user) {
-            this.user = user;
+            this.Empleado = user;
         }
 
         public Enterprise getEnterprise() {
-            return enterprise;
+            return Empresa;
         }
 
         public void setEnterprise(Enterprise enterprise) {
-            this.enterprise = enterprise;
+            this.Empresa = enterprise;
         }
 
         public date getCreatedAt() {
