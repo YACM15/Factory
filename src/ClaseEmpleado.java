@@ -4,12 +4,12 @@ public class empleado {
     private String nombre;
     private String correo;
     private String rol;
-    private String empresaContratadora;
+    private int empresaContratadora;
 
 
     //CONSTRUCTOR
 
-    public empleado(String nombre, String correo, String rol, String empresaContratadora) {
+    public empleado(String nombre, String correo, String rol, int empresaContratadora) {
         this.nombre = nombre;
         this.correo = correo;
         this.rol = rol;
@@ -44,11 +44,11 @@ public class empleado {
         this.rol = rol;
     }
 
-    public String getEmpresaContratadora() {
+    public int getEmpresaContratadora() {
         return empresaContratadora;
     }
 
-    public void setEmpresaContratadora(String empresaContratadora) {
+    public void setEmpresaContratadora(int empresaContratadora) {
         this.empresaContratadora = empresaContratadora;
     }
 
